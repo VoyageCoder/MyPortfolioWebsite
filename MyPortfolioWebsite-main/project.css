@@ -1,0 +1,82 @@
+.project-showcase {
+    list-style: none;
+    padding: 0;
+}
+
+.project-showcase li {
+    margin-bottom: 50px;
+}
+
+.project-showcase h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* .project-showcase img {
+    display: block;
+    margin: 0 auto 20px;
+} */
+
+.project-showcase p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+
+.project-showcase a {
+    color: #2841a6;
+    text-decoration: none;
+}
+
+.project-showcase a:hover {
+    text-decoration: underline;
+}
+
+.tech {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.tech-logo {
+    height: 50px !important;
+    /* Adjust the height as needed */
+    width: auto !important;
+    /* Adjust the width as needed */
+    margin-bottom: 5px;
+    /* Space between the logo and the text */
+}
+
+.project-examples {
+    width: 550px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.project-examples-api {
+    width: 800px;
+    height: auto;
+    margin-left: 0px;
+}
+
+.project-examples-small {
+    margin-top: 10px;
+    width: 790px;
+    height: 100px;
+}
+
+.project-video {
+    width: 150%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
