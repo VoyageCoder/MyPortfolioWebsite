@@ -1,58 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Mustafa Arsala</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display|Lato:300,400">
-    <link rel="stylesheet" type="text/css" href="layout.css">
-    <link rel="stylesheet" type="text/css" href="landingPage.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mustafa Arsala — Full Stack Developer</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E9D3QKE9GX"></script>
+  <script src="analytics.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <header>
-        <div class="text">
-            <h1>Mustafa Arsala</h1>
-            <h2>Full Stack and Application Developer</h2>
-            <p class="faint-text" id="quote">
-                "Today’s “best practices” lead to dead ends; the best paths are new and untried" <span class="credit">- Peter Thiel</span>
-            </p>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-                    <li>
-                        <a href="projects.html">Projects</a>
-                    </li>
-                    <!-- <li>
-                        <a href="blog.html">blog</a>
-                    </li>
-                    <!-- <li>
-                    <li>
-                        <a href="publications.html">publications</a>
-                    </li> -->
-                </ul>
-            </nav>
+
+  <nav>
+    <a class="nav-logo" href="/">Mustafa Arsala</a>
+    <ul class="nav-links">
+      <li><a href="/" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+
+        <p class="hero-label">Full Stack &amp; Application Developer</p>
+
+        <h1>Building things<br>that <em>solves problems.</em></h1>
+
+        <div class="hero-divider"></div>
+
+        <p class="hero-bio">
+          Hi, I'm Mustafa — a <strong>Melbourne-based developer</strong> with a passion for
+          building software that solves real business problems. I specialise in
+          <strong>end-to-end software development</strong> and <strong>responsive web applications</strong>,
+          and I'm actively pursuing specialist roles across <strong>software engineering</strong>,
+          <strong>cybersecurity</strong>, <strong>data science</strong>, <strong>business intelligence</strong>,
+          <strong>cloud architecture</strong>, and <strong>systems analysis</strong>.
+        </p>
+
+        <div class="hire-badge">
+          <span class="hire-dot"></span>
+          Available for hire
         </div>
-    </header>
-    <div class="body">
-        <article class="about">
-            <p>Hi, I'm Mustafa.</p>
-            <p>I like automobiles and programming.</p>
-            <p>I specialize in building responsive websites</p>
-            <p>and scalable applications with automation.</p>
-            <p class="strong">For Hire: mustafaarsala118@gmail.com</p>
-            <div class="social">
-                <a href="https://www.linkedin.com/in/mustafa-arsala-4447b0297" target="_blank"><img src="linked-in.png"></a>
-                <a href="https://github.com/VoyageCoder" target="_blank"><img src="github.png"></a>
-                <a href="mailto:mustafaarsala118@gmail.com"><img src="mail.png"></a>
-            </div>
-        </article>
-    </div>
+
+        <div class="social-links">
+          <!-- LinkedIn -->
+          <a class="social-link" href="https://www.linkedin.com/in/mustafa-arsala-4447b0297" target="_blank"
+            rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="2" />
+              <path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7" />
+            </svg>
+            LinkedIn
+          </a>
+
+          <!-- GitHub -->
+          <a class="social-link" href="https://github.com/VoyageCoder" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            GitHub
+          </a>
+
+          <!-- Email -->
+          <a class="social-link" href="mailto:mustafaarsala118@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m2 7 10 7 10-7" />
+            </svg>
+            Email
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="footer-strip">
+      <p>© 2025 Mustafa Arsala · Melbourne, Australia</p>
+      <a class="footer-email" href="mailto:mustafaarsala118@gmail.com">mustafaarsala118@gmail.com</a>
+    </footer>
+  </main>
+
 </body>
 
 </html>
-
-
