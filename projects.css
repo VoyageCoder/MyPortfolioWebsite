@@ -261,7 +261,8 @@
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.09);
     }
 
-    .project-images img {
+    .project-images img,
+    .project-images video {
       display: block;
       width: 100%;
       height: auto;
@@ -270,7 +271,8 @@
       transition: transform 0.4s ease;
     }
 
-    .project-images a:hover img {
+    .project-images a:hover img,
+    .project-images a:hover video {
       transform: scale(1.03);
     }
 
